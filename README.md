@@ -3,6 +3,8 @@
 BraindeadDB is a simple key-value store based on the file system.
 It supports versioning, arbitrary data, and data-race-free updates.
 
+Initial implementations are provided in Python and Go. JavaScript might follow.
+
 ## Design
 
 * BraindeadDB keys are SHA1 hashes of the values.
